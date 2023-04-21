@@ -22,6 +22,7 @@
     border: 1% rgb(0, 0, 0);
     border-radius: 1cm;
     text-align:center;
+    left:5cm;
     
    
 }
@@ -42,5 +43,10 @@
     background-color: blueviolet;
     top:400px;
     left:10cm;
-
+}
+.box5{
+    position: sticky;
+    background-color:red;
+    top:10cm;
+    border-radius: 0.2cm;
 }
