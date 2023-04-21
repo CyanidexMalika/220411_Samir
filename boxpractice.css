@@ -1,0 +1,46 @@
+.container{
+    position:relative;
+    height: 200cm;
+    width: 1000px;
+    background-color: rgb(216, 207, 207);
+    border: 1px solid black;
+    padding:20px;
+}
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 150px;
+    
+}
+.box1{
+    background-color: rgb(255, 255, 0);
+    position: absolute;
+    margin: 1px;
+    height:150px;
+    width:100px;
+    border-style: dotted;
+    border: 1% rgb(0, 0, 0);
+    border-radius: 1cm;
+    text-align:center;
+    
+   
+}
+.box2{
+    position:relative;
+    background-color: blue;
+    left: 500px;
+    
+}
+.box3{
+    position: static;
+    
+    background-color: brown;
+    left: 10cm;
+}
+.box4{
+    position: fixed;
+    background-color: blueviolet;
+    top:400px;
+    left:10cm;
+
+}
