@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        #mode{
+           
+
+        }
+        .dark{
+            background-color: black;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="mode">
+    <h1>This is heading</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore culpa perspiciatis ullam, nihil, libero doloribus laborum, at consectetur quas alias perferendis porro. Ullam minima rerum architecto ut a! Eveniet.
+</p>
+</div>
+<button onclick="one()">Dark mode</button>
+<button onclick="two()">Light mode</button>
+<script>
+    function one(){
+        document.getElementById("mode").classList.add('dark');
+    }
+
+    function two(){
+        document.getElementById("mode").classList.remove('dark');
+    }
+</script>
+</body>
+</html>
