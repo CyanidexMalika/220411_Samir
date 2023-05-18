@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="Register" action="" onsubmit="return formvalidate()" method="post">
+        <label for="First Name">First Name: </label><input type="text" name="FName" id="FName" placeholder="First Name"><br></label>
+        <label for="Password">Last Name: <input type="text" name="LName" id="LName" placeholder="Last Name"><br></label>
+        <label for="email">Email Address: <input type="email" name="email" id="email" placeholder="Emaill Address"><br></label>
+        <label for="num">Phone Number: <input type ="number" name="number" id="num" placeholder="Phone Number"><br></label>
+        <label for="Password">Password: <input type="password" name="password" id="password" placeholder="Password"><br></label>
+        <input type="submit" value="Submit">
+    
+    
+    </form>
+    <script>
+        function formvalidate(){
+            var finame = document.forms["Register"]["Fname"];
+            var Liname = document.forms["Register"]["Lname"];
+            if (finame.value == "")
+            {
+                alert("First name cannot be empty");
+                Fname.focus()
+                return false;
+            }
+            if (Liname.value == "") {
+                alert("Las ntame cannot be empty");
+                Liname.focus()
+                return false;
+            }
+            
+            
+            
+        
+        }
+
+
+    </script>
+</body>
+</html>
